@@ -1,0 +1,21 @@
+# Secrets
+.env
+
+# Data (too large / licensed - see data/README.md)
+data/*.csv
+
+# Trained model artifacts (regenerate with train_attack_model.py)
+models/*.pkl
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# OS
+.DS_Store
